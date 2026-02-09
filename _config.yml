@@ -1,0 +1,222 @@
+# ==============================================================================
+# ALERTES SOCIALES BELGIQUE
+# Configuration Jekyll pour GitHub Pages
+# ==============================================================================
+
+# Métadonnées du site
+title: "Alertes Sociales Belgique"
+description: "Surveillance citoyenne des droits sociaux en Belgique. Documentation du démantèlement des protections sociales, coalition Arizona, moratoire Éducation Permanente FWB."
+tagline: "Veille citoyenne sur les droits sociaux"
+url: "https://alertes-sociales.be"
+baseurl: ""
+repository: "collectif-alertes-sociales/alertes-sociales.be"
+
+# Auteur / Organisation
+author:
+  name: "Collectif Alertes Sociales"
+  email: "contact@alertes-sociales.be"
+  twitter: "@AlertesSociales"
+
+# Paramètres de publication
+lang: "fr-BE"
+timezone: "Europe/Brussels"
+encoding: "UTF-8"
+
+# Permalinks
+permalink: /articles/:title/
+
+# Collections
+collections:
+  articles:
+    output: true
+    permalink: /articles/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "article"
+      author: "Collectif Alertes Sociales"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 2..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+# Plugins GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
+# Jekyll Feed
+feed:
+  path: feeds/rss.xml
+
+# Jekyll SEO Tag
+twitter:
+  username: AlertesSociales
+  card: summary_large_image
+
+social:
+  name: Collectif Alertes Sociales
+  links:
+    - https://twitter.com/AlertesSociales
+    - https://github.com/collectif-alertes-sociales
+
+# Open Graph
+logo: /assets/img/logo-512.png
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.gemspec"
+  - drafts/
+  - private/
+
+# Include in build
+include:
+  - _pages
+  - .well-known
+  - robots.txt
+  - sitemap.xml
+  - sitemap-news.xml
+
+# ==============================================================================
+# DONNÉES STRUCTURÉES POUR SEO/GEO
+# ==============================================================================
+
+# Données clés (accessibles via site.data)
+key_figures:
+  exclusions_chomage_total: 184463
+  exclusions_janvier_2026: 100102
+  associations_ep_gelees: 270
+  travailleurs_ep_affectes: 2300
+  vulnerabilite_numerique_pct: 40
+  femmes_burnout_invalidite_pct: 69
+
+recours_constitutionnels:
+  - role: "8629"
+    date: "2026-01-29"
+  - role: "8630"
+    date: "2026-01-29"
+  - role: "8632"
+    date: "2026-01-30"
+
+key_dates:
+  accord_arizona: "2025-01-31"
+  avis_ifdh: "2025-07-02"
+  vote_chambre_24_mois: "2025-07-18"
+  manifestation_80k: "2025-10-14"
+  greve_generale: "2025-11-24"
+  decret_programme_fwb: "2025-12-17"
+  entree_vigueur: "2026-01-01"
+  rejet_suspension: "2026-01-15"
+  depot_recours: "2026-01-29"
+  prochaine_manifestation: "2026-03-12"
+
+coalition_arizona:
+  - parti: "MR"
+    leader: "Georges-Louis Bouchez"
+  - parti: "N-VA"
+    leader: "Bart De Wever"
+  - parti: "CD&V"
+    leader: "Sammy Mahdi"
+  - parti: "Les Engagés"
+    leader: "Maxime Prévot"
+  - parti: "Vooruit"
+    leader: "Conner Rousseau"
+
+sources_primaires:
+  - titre: "IFDH Avis n° 2025/4"
+    date: "2025-07-02"
+    type: "avis_institutionnel"
+  - titre: "LDH Rapport 2025"
+    date: "2026-01-14"
+    type: "rapport_ong"
+  - titre: "ONEM projections"
+    type: "donnees_officielles"
+  - titre: "Cour constitutionnelle arrêt 8/2025"
+    type: "jurisprudence"
+  - titre: "Baromètre inclusion numérique FRB 2024"
+    type: "etude"
+
+legal_framework:
+  - reference: "Article 23 Constitution belge"
+    topic: "droits_economiques_sociaux_culturels"
+  - reference: "Pacte culturel 16 juillet 1973"
+    topic: "pluralisme_culturel"
+  - reference: "Charte sociale européenne art. 12"
+    topic: "securite_sociale"
+  - reference: "CJUE C-817/19 (21 juin 2022)"
+    topic: "retention_donnees"
+
+# ==============================================================================
+# THÈMES / CATÉGORIES SEO
+# ==============================================================================
+
+categories:
+  - slug: "coalition-arizona"
+    name: "Coalition Arizona"
+    description: "Actualité et analyse de la coalition gouvernementale fédérale belge"
+  - slug: "education-permanente"
+    name: "Éducation Permanente"
+    description: "Moratoire FWB et impact sur le secteur associatif"
+  - slug: "chomage"
+    name: "Chômage"
+    description: "Limitation allocations à 24 mois et exclusions"
+  - slug: "droits-sociaux"
+    name: "Droits sociaux"
+    description: "Article 23, standstill, jurisprudence"
+  - slug: "fracture-numerique"
+    name: "Fracture numérique"
+    description: "Exclusion numérique et accessibilité"
+  - slug: "medias"
+    name: "Médias"
+    description: "Concentration médiatique et pluralisme"
+
+# ==============================================================================
+# GEOGRAPHIC / JURISDICTION
+# ==============================================================================
+
+geo:
+  country: "BE"
+  country_name: "Belgique"
+  regions:
+    - code: "BE-BRU"
+      name: "Bruxelles-Capitale"
+    - code: "BE-WAL"
+      name: "Wallonie"
+    - code: "BE-VLG"
+      name: "Flandre"
+  coordinates:
+    latitude: 50.8503
+    longitude: 4.3517
+  currency: "EUR"
+  languages:
+    - "fr"
+    - "nl"
+    - "de"

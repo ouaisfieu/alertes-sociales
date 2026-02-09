@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Page pilier principale -->
+  <url>
+    <loc>https://alertes-sociales.be/</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Articles principaux du cocon sémantique -->
+  <url>
+    <loc>https://alertes-sociales.be/articles/demantelement-orchestree.html</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Alertes Sociales Belgique</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-02-09</news:publication_date>
+      <news:title>Le démantèlement orchestré : 184 463 exclusions chômage et moratoire Éducation Permanente</news:title>
+      <news:keywords>coalition Arizona, chômage Belgique, Éducation Permanente, article 23, ONEM, moratoire FWB</news:keywords>
+    </news:news>
+  </url>
+  
+  <url>
+    <loc>https://alertes-sociales.be/articles/depossession-pouvoir-agir.html</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Alertes Sociales Belgique</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-02-09</news:publication_date>
+      <news:title>Dépossession du pouvoir d'agir 1980-2026 : VOKA et capture corporatiste</news:title>
+      <news:keywords>VOKA, fracture numérique, concentration médiatique, Belgique, pillarisation</news:keywords>
+    </news:news>
+  </url>
+  
+  <url>
+    <loc>https://alertes-sociales.be/articles/strategie-medias-publication.html</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Alertes Sociales Belgique</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2026-02-09</news:publication_date>
+      <news:title>Stratégie médias et publication : guide pour lanceurs d'alerte en Belgique</news:title>
+      <news:keywords>médias belges, publication académique, carte blanche, lanceur alerte, presse francophone</news:keywords>
+    </news:news>
+  </url>
+  
+  <!-- Flux de syndication -->
+  <url>
+    <loc>https://alertes-sociales.be/feeds/rss.xml</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://alertes-sociales.be/feeds/atom.xml</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://alertes-sociales.be/feeds/feed.json</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

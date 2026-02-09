@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  
+  <url>
+    <loc>https://alertes-sociales.be/articles/demantelement-orchestree.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Alertes Sociales Belgique</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:genres>OpEd, Blog, UserGenerated</news:genres>
+      <news:publication_date>2026-02-09T08:00:00+01:00</news:publication_date>
+      <news:title>Le démantèlement orchestré : convergence Arizona et moratoire Éducation Permanente FWB</news:title>
+      <news:keywords>coalition Arizona, 184 463 exclusions, chômage 24 mois, moratoire Éducation Permanente, 270 associations, article 23 Constitution, ONEM, FWB, MR, Les Engagés, recours constitutionnels</news:keywords>
+      <news:stock_tickers>EURONEXT:BEL20</news:stock_tickers>
+    </news:news>
+  </url>
+  
+  <url>
+    <loc>https://alertes-sociales.be/articles/depossession-pouvoir-agir.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Alertes Sociales Belgique</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:genres>OpEd, Blog, UserGenerated</news:genres>
+      <news:publication_date>2026-02-09T08:00:00+01:00</news:publication_date>
+      <news:title>Dépossession du pouvoir d'agir 1980-2026 : VOKA, capture corporatiste et fracture numérique</news:title>
+      <news:keywords>VOKA, patronat flamand, fracture numérique, concentration médiatique, Rossel-IPM, pillarisation, Belgique, FRB, baromètre inclusion numérique</news:keywords>
+      <news:stock_tickers>EURONEXT:BEL20</news:stock_tickers>
+    </news:news>
+  </url>
+  
+  <url>
+    <loc>https://alertes-sociales.be/articles/strategie-medias-publication.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Alertes Sociales Belgique</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:genres>OpEd, Blog, UserGenerated</news:genres>
+      <news:publication_date>2026-02-09T08:00:00+01:00</news:publication_date>
+      <news:title>Stratégie médias et publication : guide pour alerter sur les droits sociaux en Belgique</news:title>
+      <news:keywords>médias belges, Le Soir, La Libre, Revue Nouvelle, Brussels Studies, carte blanche, lanceur alerte, publication académique</news:keywords>
+      <news:stock_tickers>EURONEXT:BEL20</news:stock_tickers>
+    </news:news>
+  </url>
+
+</urlset>
